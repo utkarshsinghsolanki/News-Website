@@ -6,7 +6,7 @@ function getNews(){
   let indiaNews = new XMLHttpRequest();
   
   // Open indiaNews
-  indiaNews.open('GET', 'https://newsapi.org/v2/top-headlines?country=in&apiKey=0ed67480b4c844239a7e44753cc74140',true);
+  indiaNews.open('GET', 'https://newsapi.org/v2/top-headlines?country=in&apiKey=0ed67480b4c844239a7e4475XXXXXXXX',true);
   
   // On Progress
   indiaNews.onprogress = function(){
@@ -45,7 +45,7 @@ function getNews(){
   let appleNews = new XMLHttpRequest();
   
   // Open appleNews
-  appleNews.open('GET', 'https://newsapi.org/v2/everything?q=apple&from=2022-03-08&to=2022-03-08&sortBy=popularity&apiKey=0ed67480b4c844239a7e44753cc74140',true);
+  appleNews.open('GET', 'https://newsapi.org/v2/everything?q=apple&from=2022-03-08&to=2022-03-08&sortBy=popularity&apiKey=0ed67480b4c844239a7e4475XXXXXXXXX',true);
   
   // On Progress
   appleNews.onprogress = function(){
@@ -84,7 +84,7 @@ function getNews(){
   let techNews = new XMLHttpRequest();
   
   // Open techNews
-  techNews.open('GET', 'https://newsapi.org/v2/top-headlines?sources=techcrunch&apiKey=0ed67480b4c844239a7e44753cc74140',true);
+  techNews.open('GET', 'https://newsapi.org/v2/top-headlines?sources=techcrunch&apiKey=0ed67480b4c844239a7e4475XXXXXXXX',true);
   
   // On Progress
   techNews.onprogress = function(){
